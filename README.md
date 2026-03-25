@@ -185,6 +185,6 @@ I’m passionate about working with data and currently exploring data analytics,
 
 ### 📫 Contact
 - Email: wetcheong@gmail.com  
-- LinkedIn: https://linkedin.com/in/your-link  
+- LinkedIn: https://www.linkedin.com/in/cheong-teng-wei-528407182/  
 
 ---
