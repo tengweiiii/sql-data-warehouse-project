@@ -66,6 +66,7 @@ BEGIN
 				*,
 				ROW_NUMBER() OVER (PARTITION BY cst_id ORDER BY cst_create_date DESC) AS flag_last -- data cleansing: remove duplicates by assigning a row number to each record 
 			FROM bronze.crm_cust_info
+			WHERE cst_id IS NOT NULL
 		)t WHERE flag_last = 1; -- data filtering: keep only the latest record for each customer 
 		SET @end_time = GETDATE();
 		PRINT '>> Time taken to load silver.crm_cust_info: ' + CAST(DATEDIFF(SECOND, @start_time, @end_time) AS NVARCHAR) + ' seconds';
