@@ -131,7 +131,7 @@ BEGIN
 			sls_cust_id,
 			CASE WHEN sls_order_dt = 0 OR LEN(sls_order_dt) != 8 THEN NULL -- data transformation: handle invalid date formats and values by replacing them with NULL
 				 ELSE CAST(CAST(sls_order_dt AS VARCHAR) AS DATE) -- data type casting: convert int to date by first converting to varchar and then to date
-			END AS sls_ship_dt,
+			END AS sls_order_dt,
 			CASE WHEN sls_ship_dt = 0 OR LEN(sls_ship_dt) != 8 THEN NULL
 				 ELSE CAST(CAST(sls_ship_dt AS VARCHAR) AS DATE) 
 			END AS sls_ship_dt,
@@ -206,7 +206,7 @@ BEGIN
 
 		SET @start_time = GETDATE();
 		PRINT '>> Truncating Table: silver.erp_PX_CAT_G1V2';
-		TRUNCATE TABLE silver.erp_LOC_A101; 
+		TRUNCATE TABLE silver.erp_PX_CAT_G1V2; 
 		PRINT '>> Loading Data Into: silver.erp_PX_CAT_G1V2';
 		INSERT INTO silver.erp_PX_CAT_G1V2 (
 			id,
