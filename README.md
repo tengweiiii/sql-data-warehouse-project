@@ -134,12 +134,6 @@ I’m passionate about working with data and currently exploring data analytics,
 
 ### 📂 Projects
 
-#### 🏢 Data Warehouse Project (Current Focus)
-- Built using CRM and ERP datasets  
-- Designed a modern data warehouse using SQL Server  
-- Implemented ETL processes and data modeling  
-- Structured data for efficient querying and analytics  
-
 #### 🎓 Gamified E-Learning Platform (Diploma Final Year Project)
 - Developed a web-based platform for undergraduate students  
 - Features gamification to increase engagement: points, badges, achievements, and leaderboards  
