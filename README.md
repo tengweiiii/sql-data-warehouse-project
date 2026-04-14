@@ -132,40 +132,6 @@ I’m passionate about working with data and currently exploring data analytics,
 
 ---
 
-### 📂 Projects
-
-#### 🎓 Gamified E-Learning Platform (Diploma Final Year Project)
-- Developed a web-based platform for undergraduate students  
-- Features gamification to increase engagement: points, badges, achievements, and leaderboards  
-- **User Roles & Access:**  
-  - Students: Access course materials, participate in quizzes, track progress, engage in forums, earn rewards, receive feedback  
-  - Teachers: Create/manage course content, design quizzes, provide feedback, monitor student progress  
-  - Administrators: Manage users, approve content, configure points/badges/rankings  
-- **Learning & Assessment Tools:** Interactive quizzes, real-time feedback, discussion forums  
-- **Content Management:** Structured course modules, multimedia support 
-- Focused on enhancing engagement, learning experience, and user-friendly navigation  
-
-#### 💻 Java-Based Systems (NetBeans)
-
-- **APU Assessment Feedback System (AFS)**  
-  - Developed using Java and Apache NetBeans with text-file based storage  
-  - Built for Admin, Academic Leaders, Lecturers and Students  
-  - Features: managing user accounts, grading system, class/module management, feedback, assessment tracking, reporting  
-  - Focused on transparency, usability, and enhancing student learning experiences at Asia Pacific University (APU)  
-
-- **APU Psychology Consultation Management System**  
-  - Developed using Java and Apache NetBeans with an object-oriented approach  
-  - Designed for Students and Psychology Lecturers at Asia Pacific University (APU)  
-  - Features: account registration, booking appointments, viewing past appointments, feedback/ratings, reschedule management  
-  - Focused on navigation, smooth UX, modularity, reusability, and scalability  
-
-#### 🌐 FOMO Driving Academy (Web Project)
-- Built using XAMPP, HTML, CSS, JavaScript, PHP, and MySQL  
-- Developed for the Malaysian Driving Centre to help users prepare for driving theory tests  
-- Features: interactive quizzes, study materials, personalized profiles, real-time simulations, detailed test reviews  
-- Focused on user-friendly interface and comprehensive learning experience for students preparing for driving exams  
-
----
 
 ### 🎯 Career Goals
 - Develop strong skills in data analytics and data engineering  
